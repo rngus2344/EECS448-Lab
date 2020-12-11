@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang='en' dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Lab_8</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lab8.js" charset="utf-8"></script>
+  </head>
+  <body>
+    <ul>
+      <li><a href="/C:/Users/rngus/EECS_448/Labs/lab8/index.html">Home</a></li>
+    </ul>
+    <h1>CSS Manipulation</h1>
+    <div class="Border">
+      <h4>Dummy Text. Dummy Text. Dummy Text. Dummy Text. Dummy Text. Dummy Text. Dummy Text.</h4>
+    </div>
+
+    <div class="CSSManipulation">
+      <h3>Border: </h3>
+      <li><label for="RValueBorder">Red value (0-255):</label></li>
+      <input type="num" id="RValueBorder" name="RValueBorder"><br><br>
+      <li><label for="GValueBorder">Green value (0-255):</label></li>
+      <input type="num" id="GValueBorder" name="GValueBorder"><br><br>
+      <li><label for="BValueBorder">Blue value (0-255):</label></li>
+      <input type="num" id="BValueBorder" name="BValueBorder"><br><br>
+      <li><label for="WBorder">Width:</label></li>
+      <input type="num" id="WBorder" name="WBorder"><br><br>
+
+      <h3>Background color: </h3>
+      <li><label for="RValueBackground">Red value (0-255):</label></li>
+      <input type="input" id="RValueBackground" name="RValueBackground"><br><br>
+      <li><label for="GValueBackground">Green value (0-255):</label></li>
+      <input type="input" id="GValueBackground" name="GValueBackground"><br><br>
+      <li><label for="BValueBorder">Blue value (0-255):</label></li>
+      <input type="input" id="BValueBackground" name="BValueBackground"><br><br>
+      <li><label for="WBackground">Width:</label></li>
+      <input type="input" id="WBackground" name="WBackground"><br><br>
+
+      <input type="submit" onclick="CSSManipulateFunc()" value="Change">
+    </div>
+  </body>
+</html>
